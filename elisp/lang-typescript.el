@@ -1,4 +1,5 @@
 (use-package tide
+    :config
     (defun setup-tide-mode ()
     (interactive)
     (tide-setup)

@@ -166,4 +166,9 @@
 
 (use-package ag)
 
+(use-package editorconfig
+  :ensure t
+  :config
+  (editorconfig-mode 1))
+
 (provide 'base-extensions)
