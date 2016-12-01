@@ -171,4 +171,6 @@
   :config
   (editorconfig-mode 1))
 
+(use-package docker)
+
 (provide 'base-extensions)

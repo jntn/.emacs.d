@@ -45,7 +45,8 @@
       inhibit-startup-message            t
       fringes-outside-margins            t
       x-select-enable-clipboard          t
-      use-package-always-ensure          t)
+      use-package-always-ensure          t
+      truncate-lines                     t)
 
 ;; Bookmarks
 (setq
