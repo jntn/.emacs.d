@@ -111,6 +111,9 @@
   (org-projectile:per-repo)
   (setq org-projectile:per-repo-filename "todo.org"
 	org-agenda-files (append org-agenda-files (org-projectile:todo-files))))
+  (add-to-list 'projectile-globally-ignored-directories "elpa")
+  (add-to-list 'projectile-globally-ignored-directories ".cache")
+  (add-to-list 'projectile-globally-ignored-directories "node_modules")
 
 (use-package org-bullets
   :config
