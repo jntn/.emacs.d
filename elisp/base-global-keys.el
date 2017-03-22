@@ -4,5 +4,8 @@
 
 (global-set-key [(control x) (k)] 'kill-this-buffer)
 
+(global-set-key [f8] 'neotree-project-dir)
+
+
 
 (provide 'base-global-keys)

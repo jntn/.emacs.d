@@ -22,3 +22,5 @@
 
 (require 'lang-javascript)
 (require 'lang-typescript)
+(require 'lang-clojure)
+

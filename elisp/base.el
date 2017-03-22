@@ -46,7 +46,8 @@
       fringes-outside-margins            t
       x-select-enable-clipboard          t
       use-package-always-ensure          t
-      truncate-lines                     t)
+      truncate-lines                     t
+      frame-background-mode              'dark)
 
 ;; Bookmarks
 (setq
