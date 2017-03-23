@@ -6,6 +6,7 @@
 
 (global-set-key [f8] 'neotree-project-dir)
 
+(global-set-key (kbd "<C-tab>") 'xah-next-user-buffer)
 
 
 (provide 'base-global-keys)

@@ -1,7 +1,7 @@
 
 (use-package avy
   :bind
-  ("C-c SPC" . avy-goto-char))
+  ("C-c j" . avy-goto-char-2))
 
 
 (use-package company
@@ -10,7 +10,12 @@
 
 (use-package dashboard
   :config
+  (setq dashboard-items '((recents  . 5)
+                        (bookmarks . 5)
+		            	(projects . 5)))
   (dashboard-setup-startup-hook))
+
+
 
 (use-package ediff
   :config
@@ -32,7 +37,6 @@
 
 (use-package flycheck)
 
-
 (use-package counsel
   :bind
   ("M-x" . counsel-M-x)
@@ -53,13 +57,13 @@
   ("C-x C-r" . ivy-resume)
   :config
   (ivy-mode 1)
-  (setq ivy-use-virtual-buffers nil)
+  (setq ivy-use-virtual-buffers t)
   (define-key read-expression-map (kbd "C-r") 'counsel-expression-history))
 
 
-(use-package hlinum
-  :config
-  (hlinum-activate))
+;(use-package hlinum
+;  :config
+;  (hlinum-activate))
 
 (use-package linum
   :config
