@@ -181,4 +181,6 @@
 
 (use-package docker)
 
+(use-package sicp)
+
 (provide 'base-extensions)
